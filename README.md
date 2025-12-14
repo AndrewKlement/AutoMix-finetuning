@@ -51,11 +51,16 @@ Locate Audiocraft instalation path and replace the transformer file, example pat
 ⚠️ Ensure you replace the file in the automix environment, not the audioldm environment.
 
 ## 🎵 2. Dataset Structure
+```
 dataset/
 │
 ├── chunks/ # 10-second WAV files, 32 kHz
 │
 └── raw/    # Full-length tracks
+```
+
+To generate chunks from raw put albums inside raw folder then run AutoMixMusicGen/musicgen.ipynb\ 
+For audioLDM chunks, copy and paste from musicgen folder they share the same format.
 
 ## 🎛️ 3. Running
 To run finetuning for musicgen run AutoMixMusicGen/musicgen.ipynb\
