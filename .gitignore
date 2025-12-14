@@ -1,0 +1,13 @@
+AudioLDMFineTune/AudioLDM-training-finetuning/
+AudioLDMFineTune/dataset/chunks/*
+!AudioLDMFineTune/dataset/chunks/.gitkeep
+AutoMixMusicGen/checkpoints/*
+!AutoMixMusicGen/checkpoints/.gitkeep
+AutoMixMusicGen/dataset/chunks/*
+!AutoMixMusicGen/dataset/chunks/.gitkeep
+AutoMixMusicGen/dataset/raw/*
+!AutoMixMusicGen/dataset/raw/.gitkeep
+AutoMixMusicGen/dataset/tokenized/*
+AutoMixMusicGen/lm_inpaint_final.pt
+__pycache__/
+*.py[cod]
